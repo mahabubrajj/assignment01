@@ -1,7 +1,9 @@
 *{
     margin: 0;
-    padding:0;
+    padding: 0;
+    box-sizing: border-box;
 }
+   
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -26,11 +28,64 @@ p{
 .color-orng{
     color: tomato;
 }
+/************Nav Bar*************/
+nav{
+    background-color: #fff8b9;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+nav .logo{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-left: 100px;
+}
+
+nav .logo img{
+    float: left;
+    width: 7%;
+    margin: 10px 0;
+}
+
+nav ul{
+    float: right;
+    margin-right: 100px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1d1d1d;
+    margin: 0 5px;
+    padding: 0 35px;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background-color: #FF6347;
+    padding: 20px 35px;
+}
+
+nav ul li .active {
+    color: #fff;
+    background-color: #FF6347;
+    padding: 20px 35px;
+}
 /***********Frist Section***********/
+
 .first-sec{
-background:wheat;
+background-image: url(images/1st-bg.jpg);
 background-size: cover;
-background-color: rgba(255, 255, 255, 0.8);
+
 }
 .first-div{
 width: 90%;
@@ -76,31 +131,27 @@ margin: 5% 10%;
     margin-top:40px;
     margin-bottom: 100px;
 }
-/*****************3td Column*******************/
+/*****************3td Column*********/
 .thrd-sec{
-    background:#fff;
-    background-repeat: no-repeat;
-    background-position: left;
-    margin-bottom: 150px;
+
 }
-.thrd-sec-h2{
-    width: 80%;
-    margin: 80px 10%  30px;
+.thrd-sec-top {
+width: 60%;
+margin: 50px 20%;
+}
+
+.thrd-sec-top h2, p{
     text-align: center;
 }
 
-.thrd-sec-p{
-    width: 70%;
-    margin: 20px 15%  60px;
-    text-align: center;
-}
-.tri-colmn{
-    display: flex;
-    justify-content: center;
+.conent-area{
+    width: 90%;
+    margin: 0 5%;
+
 }
 .blog{
-    width: 25%;
-    margin: 0 30px;
+    width: 100%;
+    margin: 30px 30px;
     border-radius: 15px;  
     padding: 15px 15px 30px;
     box-shadow: 3px 3px 10px gray;
@@ -112,22 +163,16 @@ margin: 5% 10%;
 .blog h3{
     padding: 10px;
 }
-.half-width3{
-    box-shadow: 5px 7px 40px gray;
-    height: 80%;
-    width: 30%;
-    margin: 0 2%;
-    padding: 0 20px;
-}
+
 /************4th Section*************/
-.section-four{
-    padding: 0 0 150px;
-}
-.main-area-4{
-    margin: 0 5.5%;
-    padding: 50px 0;
-    border-radius: 15px;  
-    box-shadow: 3px 3px 10px gray;
+
+.main-area-4 {
+    width: 87%;
+    margin: 80px 6.5% 120px;
+    padding: 40px 0;
+    background-color: violet;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px gray;
 }
 .flex-width4{
     display: flex;
@@ -165,7 +210,7 @@ margin: 5% 10%;
     width: 100%;
     padding: 10px;
     background:#fff;
-    border: none;
+    border: 0.5px solid lightgrey;
 }
 
 .my-form button {
