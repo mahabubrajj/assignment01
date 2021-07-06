@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    line-height: 1.2em;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    text-align: justify;
+}
+.flex-width{
+    display: flex;
+}
+.color-orng{
+    color: tomato;
+}
+/***********Frist Section***********/
+.first-sec{
+background:wheat;
+background-size: cover;
+background-color: rgba(255, 255, 255, 0.8);
+}
+.first-div{
+width: 90%;
+margin: 0 auto;
+padding: 30px 0;
+}
+.half-width1{
+    margin-top: 150px;
+    margin-right: 100px;
+}
+.half-width1 p{
+    margin-top: 35px;;
+    margin-bottom: 40px;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, Coral, tomato);;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.half-width2 img{
+margin-bottom: 50px;
+}
+
+/***********2nd Section***********/
+.second-sec{
+    background-image: url(images/2nd-bg.png);
+    background-size: cover;
+}
+.second-sec-width{
+    width: 80%;
+    margin:0 10%;
+    padding-top: 100px;
+}
+.section-sec-half img {
+margin-bottom: -7px;
+}
+.section-sec-half2 {
+margin: 5% 10%;
+}
+.section-sec-half2 p{
+    margin-top:40px;
+    margin-bottom: 100px;
+}
+/*****************3td Column*******************/
+.thrd-sec{
+    background:#fff;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
+}
+.thrd-sec-h2{
+    width: 80%;
+    margin: 80px 10%  30px;
+    text-align: center;
+}
+
+.thrd-sec-p{
+    width: 70%;
+    margin: 20px 15%  60px;
+    text-align: center;
+}
+.tri-colmn{
+    display: flex;
+    justify-content: center;
+}
+.blog{
+    width: 25%;
+    margin: 0 30px;
+    border-radius: 15px;  
+    padding: 15px 15px 30px;
+    box-shadow: 3px 3px 10px gray;
+}
+.blog img {
+    width: 100%;
+    border-radius: 15px;
+}
+.blog h3{
+    padding: 10px;
+}
+.half-width3{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    width: 30%;
+    margin: 0 2%;
+    padding: 0 20px;
+}
+/************4th Section*************/
+.section-four{
+    padding: 0 0 150px;
+}
+.main-area-4{
+    margin: 0 5.5%;
+    padding: 50px 0;
+    border-radius: 15px;  
+    box-shadow: 3px 3px 10px gray;
+}
+.flex-width4{
+    display: flex;
+}
+.single-col {
+    width: 100%;
+    padding: 20px;
+}
+.single-col h2, .single-col p{
+    text-align: center;
+}
+
+/************Form Section************/
+.sec-form{
+    background-image: url(images/4th-bg.jpg);
+    background-size: cover;
+    padding: 50px 100px;
+}
+.half-width5{
+    width: 100%;
+}
+.half-width5 img{
+ margin: 20px 100px 20px;
+}
+.my-form{
+
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.form-group level {
+    display: block;
+}
+.form-group input, textarea {
+    width: 100%;
+    padding: 10px;
+    background:#fff;
+    border: none;
+}
+
+.my-form button {
+    padding: 10px 30px;
+    background-color:#3053D6;
+    color: papayawhip;
+    border: none;
+    font-size: 16px;
+}
+/*************Footer Area*************/
+footer{
+    background: black;
+    padding: 35px;
+}
+footer h3{
+    text-align: center;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
