@@ -140,8 +140,11 @@ width: 60%;
 margin: 50px 20%;
 }
 
-.thrd-sec-top h2, p{
+.thrd-sec-top h2 {
     text-align: center;
+}
+.thrd-sec-top p{
+    text-align: center
 }
 
 .conent-area{
